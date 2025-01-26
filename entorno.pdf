@@ -1,0 +1,58 @@
+Primer software: Java 17
+    1. ¿Instalación?: 
+        @XPelayo ➜ /workspaces $ java --version
+            openjdk 17.0.13 2024-10-15
+            OpenJDK Runtime Environment (build 17.0.13+11-Ubuntu-2ubuntu120.04)
+            OpenJDK 64-Bit Server VM (build 17.0.13+11-Ubuntu-2ubuntu120.04, mixed mode, sharing)
+
+        @XPelayo ➜ /workspaces $ echo $JAVA_HOME
+            /usr/lib/jvm/java-17-openjdk-amd64
+
+Segundo software: Maven
+    1. ¿Instalación?: 
+        @XPelayo ➜ /workspaces $ mvn --version
+            Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+            Maven home: /usr/local/sdkman/candidates/maven/current
+            Java version: 17.0.13, vendor: Ubuntu, runtime: /usr/lib/jvm/java-17-openjdk-amd64
+            Default locale: en, platform encoding: UTF-8
+            OS name: "linux", version: "6.5.0-1025-azure", arch: "amd64", family: "unix"
+
+Tercer software: Editor de código fuente (VsCode + IntelliJ)
+    1. ¿Instalación?: 
+        @XPelayo ➜ /workspaces $ wget https://download.jetbrains.com/idea/ideaIC-2023.2.3.tar.gz -O idea.tar.gz
+            --2025-01-26 16:06:21--  https://download.jetbrains.com/idea/ideaIC-2023.2.3.tar.gz
+            Resolving download.jetbrains.com (download.jetbrains.com)... 18.245.253.55, 18.245.253.62, 18.245.253.57, ...
+            Connecting to download.jetbrains.com (download.jetbrains.com)|18.245.253.55|:443... connected.
+            HTTP request sent, awaiting response... 302 Moved Temporarily
+            Location: https://download-cdn.jetbrains.com/idea/ideaIC-2023.2.3.tar.gz [following]
+            --2025-01-26 16:06:21--  https://download-cdn.jetbrains.com/idea/ideaIC-2023.2.3.tar.gz
+            Resolving download-cdn.jetbrains.com (download-cdn.jetbrains.com)... 3.166.49.112, 3.166.49.111, 3.166.49.114, ...
+            Connecting to download-cdn.jetbrains.com (download-cdn.jetbrains.com)|3.166.49.112|:443... connected.
+            HTTP request sent, awaiting response... 200 OK
+            Length: 974257506 (929M) [binary/octet-stream]
+            Saving to: ‘idea.tar.gz’
+
+            idea.tar.gz                        100%[================================================================>] 929.12M  53.0MB/s    in 15s     
+
+            2025-01-26 16:06:37 (59.9 MB/s) - ‘idea.tar.gz’ saved [974257506/974257506]
+
+        @XPelayo ➜ /workspaces $ code --version
+            1.96.3
+            91fbdddc47bc9c09064bf7acf133d22631cbf083
+            x64
+
+        @XPelayo ➜ /workspaces $ code --list-extensions
+            Extensiones instaladas en Codespaces: solid capybara:
+            github.codespaces
+            github.github-vscode-theme
+            github.vscode-pull-request-github
+            ms-ceintl.vscode-language-pack-es
+            redhat.java
+            visualstudioexptteam.intellicode-api-usage-examples
+            visualstudioexptteam.vscodeintellicode
+            vscjava.vscode-gradle
+            vscjava.vscode-java-debug
+            vscjava.vscode-java-dependency
+            vscjava.vscode-java-pack
+            vscjava.vscode-java-test
+            vscjava.vscode-maven

@@ -1,0 +1,56 @@
+Primer comando: git clone
+    1. Significado: Clona un repositorio remoto en tu máquina local.
+    2. Para que lo he usado: Cloné mi fork del repositorio original para tenerlo localmente.
+    3. Resultado en la consola:
+        Cloning into 'p1'...
+        remote: Enumerating objects: 20, done.
+        remote: Counting objects: 100% (20/20), done.
+        Resolving deltas: 100% (5/5), done.
+
+Segundo comando: git status
+    1. Significado: Muestra el estado del repositorio.
+    2. Para que lo he usado: Lo usé para comprobar los archivos modificados y no añadidos.
+    3. Resultado en la consola:
+        On branch main
+        Your branch is up to date with 'origin/main'.
+        Untracked files:
+        git.txt
+        nothing added to commit but untracked files present (use "git add" to track)
+
+Tercer comando: git add
+    1. Significado: Añade archivos al área de preparación para hacer el commit.
+    2. Para que lo he usado: Se ha utilizado para preparara el archivo git.txt antes de crear el commit.
+    3. Resultado en la consola:
+        On branch main
+        Your branch is up to date with 'origin/main'.
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+        new file:   git.txt
+
+Cuarto comando: git commit
+    1. Significado: Crea un commit, que es una instantánea de los cambios en el repositorio.
+    2. Para que lo he usado: Lo usé para guardar los cambios realizados en el archivo git.txt con un mensaje descriptivo.
+    3. Resultado en la consola:
+        [main 123abc4] Añadido documento explicativo de comandos Git
+        1 file changed, 12 insertions(+)
+        create mode 100644 git.txt  
+
+Quinto comando: git push
+    1. Significado: Sube los commits locales al repositorio remoto.
+    2. Para que lo he usado: Lo usé para subir el archivo git.txt al repositorio remoto en GitHub.
+    3. Resultado en la consola:
+        Enumerating objects: 4, done.
+        Counting objects: 100% (4/4), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (2/2), done.
+        Writing objects: 100% (3/3), 360 bytes | 360.00 KiB/s, done.
+        Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+        To https://github.com/XPelas/p1.git
+        abc1234..def5678  main -> main  
+
+Sexto comando: git checkout
+    1. Significado: Permite cambiar entre ramas, restaurar un archivo a un estado anterior o deshacer cambios no confirmados.
+    2. Para que lo he usado: Lo usé para restaurar un archivo modificado y comprobar el contenido anterior de una rama.
+    3. Resultado en la consola:
+        Switched to branch 'main'
+        Your branch is up to date with 'origin/main'.
